@@ -17,7 +17,7 @@ class MovieActor implements Serializable {
 	int hashCode() {
 		def builder = new HashCodeBuilder()
 		if (movie) builder.append(movie.id)
-		if (actor) builder.append(actor).id)
+		if (actor) builder.append(actor.id)
 		builder.toHashCode()
 	}
 	

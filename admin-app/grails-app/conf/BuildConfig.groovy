@@ -31,3 +31,4 @@ grails.project.dependency.resolution = {
 }
 
 grails.plugin.location."core-plugin" = "../core-plugin"
+grails.plugin.location."uberDateFormatter-plugin" = "../uberDateFormatter-plugin"
