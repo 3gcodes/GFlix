@@ -15,4 +15,8 @@ class Movie {
 		dateCreated nullable:true
 		lastUpdated nullable:true
     }
+
+	Set<Actor> getActors() {
+		MovieActor.findAllByMovie(this).collect { it.actor } as Set
+	}
 }
